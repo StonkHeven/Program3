@@ -21,7 +21,6 @@ namespace Prog3
         private const int SINGLE4 = 160725; // 4th single threshold
         private const int SINGLE5 = 204100; // 5th single threshold
         private const int SINGLE6 = 510300; // 6th single threshold (HIGHEST)
-        int[] SINGLE = { 1, 9701, 39476, 84201, 160726, 204101, 510301};
         
                     
         //Married Filing Separately
@@ -31,7 +30,6 @@ namespace Prog3
         private const int SEPARATELY4 = 160725; // 4th married-separately threshold
         private const int SEPARATELY5 = 204100; // 5th married-separately threshold
         private const int SEPARATELY6 = 306175; // 6th married-separately threshold (HIGHEST)
-        int[] SEPARATELY = { 1, 9701, 39476, 84201, 160726, 204101, 306176};
         
 
         // Married Filing Jointly
@@ -41,7 +39,6 @@ namespace Prog3
         private const int JOINTLY4 = 321450; // 4th married-jointly threshold
         private const int JOINTLY5 = 408200; // 5th married-jointly threshold
         private const int JOINTLY6 = 612350; // 6th married-jointly threshold (HIGHEST)
-        int[] JOINTLY = { 1, 19401, 78951, 168401, 321451, 408201, 612350};
         
 
         // Head of Household
@@ -51,7 +48,6 @@ namespace Prog3
         private const int HOH4 = 160700; // 4th head of household threshold
         private const int HOH5 = 204100; // 5th head of household threshold
         private const int HOH6 = 510300; // 6th head of household threshold (HIGHEST)
-        int[] HOH = { 1, 13851, 52851, 84201, 160701, 204101, 510301};
         
 
         // Income threshold values that apply to this filer
